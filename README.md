@@ -1,7 +1,7 @@
 # 💻 Mobadratna Student Portal
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0f172a&height=160&section=header&text=Mobadratna%20Student%20Portal&fontSize=42&fontColor=38bdf8&fontFamily=Outfit" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:7c3aed&height=160&section=header&text=Mobadratna%20Student%20Portal&fontSize=42&fontColor=ffffff&fontFamily=Outfit" width="100%" />
 </div>
 
 <div align="center">
@@ -34,9 +34,10 @@ This project implements:
 The internal layout structures are separated logically:
 ```text
 mobadratna-student-portal/
-├── css/ or styles/      # Styling engines and layouts
-├── js/ or src/          # Source scripts and business logic
-├── index.html or app.js # Operational entry point
+├── css/                 # Styling engines and layouts
+├── js/                  # Source scripts and business logic
+├── images/              # Media and icon assets
+├── index.html           # Operational entry point
 └── README.md            # System documentation
 ```
 
@@ -59,10 +60,10 @@ mobadratna-student-portal/
 
 ### ⚙️ Quick Start Steps
 ```bash
-    git clone https://github.com/Mobadratna-Org/mobadratna-student-portal.git
-    cd mobadratna-student-portal
-    # Open index.html in any modern browser, or run local server:
-    python -m http.server 8080
+git clone https://github.com/Mobadratna-Org/mobadratna-student-portal.git
+cd mobadratna-student-portal
+# Open index.html in any modern browser, or run local server:
+python -m http.server 8080
 ```
 
 ---
